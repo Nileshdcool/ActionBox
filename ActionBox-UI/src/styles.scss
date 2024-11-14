@@ -1,0 +1,65 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+// .todo-container {
+//   max-width: 600px;
+//   margin: 2rem auto;
+//   padding: 1rem;
+//   background: white;
+//   border-radius: 8px;
+// }
+
+// .todo-form {
+//   display: flex;
+//   align-items: center;
+//   gap: 1rem;
+//   margin-bottom: 1rem;
+// }
+
+// .completed {
+//   text-decoration: line-through;
+//   color: gray;
+// }
